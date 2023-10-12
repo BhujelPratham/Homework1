@@ -1,44 +1,60 @@
+<!-- Author-Pratham Raj Bhujel
+  Program- index.html
+  Email- bhujpr19@uwgb.edu
+  Date- 10/11/2023 -->
 <!DOCTYPE html>
 <html lang="en">
-<!--CSS code Section-->
-<style>
-    h1 {
-        color: white;
-        background-color: black;
-    }
-
-    header {
-        margin-right: 25px;
-        margin-left: 25px;
-    }
-
-    main {
-        margin-left: 25px;
-        margin-right: 25px;
-        background-color: azure;
-    }
-
-    footer {
-        background-color: rgb(223, 255, 244);
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-
-    header {
-        text-align: center;
-    }
-
-    div {
-        float: right;
-    }
-</style>
-
-<!--HTML Code section-->
 
 <head>
     <meta charset="UTF-8">
     <title>Personal Website</title> <!--Title for the website-->
     <link rel="icon" href="favicon.jpg"><!--Use of Favicon for the website-->
+    <!--CSS code section-->
+    <style>
+        h1 {
+            color: white;
+            background-color: black;
+        }
+
+        header {
+            margin-right: 25px;
+            margin-left: 25px;
+            text-align: center;
+        }
+
+        main {
+            margin-left: 25px;
+            margin-right: 25px;
+            background-color: azure;
+        }
+
+        footer {
+            background-color: rgb(223, 255, 244);
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        div {
+            float: right;
+        }
+
+        .table1 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .line1 {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -67,10 +83,10 @@
                     <th><b><u>Browse Menu</u></b></th>
                 </tr>
                 <tr>
-                    <td><a href="#menu1">Hobbies</a></td>
+                    <td><a href="#menu1">Hobbies</a></td><!--Use of text link-->
                 </tr>
                 <tr>
-                    <td><a href="#menu2">Education</a></td> <!--Use of text link-->
+                    <td><a href="#menu2">Education</a></td>
                 </tr>
                 <tr>
                     <td><a href="#menu3">Work Experience</a></td>
@@ -114,7 +130,7 @@
             </table>
         </section>
         <section id="menu2">
-            <h3><u>Education</u></h3><!--description for education-->
+            <h2><u>Education</u></h2><!--description for education-->
             <p><b>I studied in Nepal until I finished my high school and came to the states to study undergraduate. In
                     Nepal, I started studying about Computers and Programming languages since grade 6. The first
                     programming
@@ -123,7 +139,7 @@
                     my major subject and took Computer Science as my emphasis. After that I statrted studying basic
                     ideas
                     about HTML, CSS, JavaScript, Python and many more.</b></p>
-            <table border="2" align="center"> <!--Use of table with borders-->
+            <table class="table1" border="2"> <!--Use of table with borders-->
                 <caption><b>Education Background</b></caption>
                 <tr>
                     <th>Institution Name</th>
@@ -134,7 +150,7 @@
                     <td>Under Graduate</td>
                 </tr>
                 <tr>
-                    <td colspan="2" align="Center">Expected to graduate in <b>2026</b></td>
+                    <td colspan="2" class="line1">Expected to graduate in <b>2026</b></td>
                 </tr>
                 <tr>
                     <td>University of Indianapolis</td>
@@ -145,17 +161,17 @@
                     <td>High School 2020</td>
                 </tr>
             </table>
-            <p align="Center">
+            <p>
                 <b>Here is the picture of my highschool back in Nepal</b><br>
                 <u>Click picture below to see my high school's website</u>
             </p>
-            <p align="Center"> <!--Use of Image Link-->
+            <p> <!--Use of Image Link-->
                 <a href="https://bvs.edu.np/"><img src="Highschool.jpg" width="550" height="350"
                         alt="Link to my highschool using it's image."></a>
             </p>
         </section>
         <section id="menu3">
-            <h3><u>Work Experience</u></h3>
+            <h2><u>Work Experience</u></h2>
             <ol><!--Use of ordered list-->
                 <li>Cashier, Quest Food Management. Indianapolis, Indiana</li>
                 <li>Customer Service Executive, Pinches Artcore. Kathmandu, Nepal</li>
@@ -164,20 +180,20 @@
     </main>
     <footer>
         <section id="footer">
-            <h3 align="center"><u>Contact Info:</u></h3>
-            <p align="Center">
+            <h3><u>Contact Info:</u></h3>
+            <p>
                 <b>Phone Number:
                     +1 (317)-603-9925</b>
-                <b>Github:</b><a href="https://github.com/BhujelPratham" target="blank"><strong> Github</strong></a>
+                <b>Github:</b><a href="https://github.com/BhujelPratham" target="blank"><strong>
+                        Github</strong></a><!--link that opens in a new tab-->
                 <b>Email:</b><a href="mailto:bhujpr19@uwgb.edu" target="blank"><strong>bhujpr19@uwgb.edu</strong></a>
-                <!--link that opens in a new tab-->
                 <b>LinkedIn:</b><a href="https://www.linkedin.com/in/pratham-raj-bhujel-b70476206/" target="blank">
                     <strong>LinkedIn</strong></a>
                 <b>Media:</b><a href="https://www.instagram.com/pratham_bhujel7/" target="blank"><strong>
                         instagram</strong></a>
                 <b>University:</b><a href="https://www.uwgb.edu/students/" target="blank"><strong>UWGB</strong></a>
             </p>
-            <p align="Center">
+            <p>
                 <b>&copy; Pratham Raj Bhujel</b> <!--Use of Special Character-->
             </p>
         </section>
